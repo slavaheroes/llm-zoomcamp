@@ -4,6 +4,12 @@ In this homework, we'll experiemnt with vector with and without Elasticsearch
 
 > It's possible that your answers won't match exactly. If it's the case, select the closest one.
 
+Solution:
+
+* Video: https://www.loom.com/share/979b9e1f0a964fff88cd62d37e7515f9
+* Notebook: [homework_solution.ipynb](homework_solution.ipynb)
+
+
 
 ## Q1. Getting the embeddings model
 
@@ -72,7 +78,7 @@ cosine similarity between the vector from Q1 (let's call it `v`) and the matrix 
 
 The vectors returned from the embedding model are already
 normalized (you can check it by computing a dot product of a vector
-with itself - it should return 1.0). This means that in order
+with itself - it should return something very close to 1.0). This means that in order
 to compute the coside similarity, it's sufficient to 
 multiply the matrix `X` by the vector `v`:
 
