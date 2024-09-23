@@ -15,7 +15,7 @@ In this module, we'll cover the techniques that could improve your RAG pipeline.
 * Document reranking
 
 Links:
-* Slides (TBD)
+* [Slides](llm-zoomcamp-best-practicies.pdf)
 * [Five Techniques for Improving RAG Chatbots - Nikita Kozodoi [Video]](https://www.youtube.com/watch?v=xPYmClWk5O8)
 * [Survey on RAG techniques [Article]](https://arxiv.org/abs/2312.10997)
 
@@ -26,7 +26,8 @@ Links:
   <img src="https://markdown-videos-api.jorgenkh.no/youtube/TQ_ck6Q9gSQ">
 </a>
 
-
+* Hybrid search strategy
+* Hybrid search in Elasticsearch
 
 Links:
 * [Notebook](hybrid-search-and-reranking-es.ipynb)
@@ -39,6 +40,10 @@ Links:
 <a href="https://www.youtube.com/watch?v=H4M55Ptc5cM">
   <img src="https://markdown-videos-api.jorgenkh.no/youtube/H4M55Ptc5cM">
 </a>
+
+* Reranking concept and metrics
+* Reciprocal Rank Fusion (RRF)
+* Handmade raranking implementation
 
 Links:
 * [Reciprocal Rank Fusion (RRF) method [Elasticsearch Guide]](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
@@ -60,9 +65,31 @@ docker run -it \
 ```
 
 
-## 6.4 TBD
+## 6.4 Hybrid search with LangChain
+
+<a href="https://www.youtube.com/watch?v=CRfg7tAsnUU">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/CRfg7tAsnUU">
+</a>
+
+* LangChain: Introduction
+* ElasticsearchRetriever
+* Hybrid search implementation
+
+```bash
+pip install -qU langchain langchain-elasticsearch langchain-huggingface
+```
+
+Links:
+* [Notebook](hybrid-search-langchain.ipynb)
+* [Chatbot Implementation [Tutorial]](https://www.elastic.co/search-labs/tutorials/chatbot-tutorial/implementation)
+* [ElasticsearchRetriever](https://python.langchain.com/v0.2/docs/integrations/retrievers/elasticsearch_retriever/)
 
 
 ## Homework
 
 TBD
+
+# Notes
+
+* First link goes here
+* Did you take notes? Add them above this line (Send a PR with *links* to your notes)
